@@ -59,4 +59,6 @@ The included sample images show gold nanoparticles supported on silicon nitride 
 
 The following tutorial details the preparation of images, segmentation and measurement of particles using unsupervised convolutional autoencoders, and extraction of physically important information from image data.
 
+<img width="376" alt="Screen Shot 2021-01-10 at 6 33 12 PM" src="https://user-images.githubusercontent.com/76077037/104138483-53120880-5372-11eb-9844-534d476ddd12.png">
+
 Figure 1.  Demonstration of the type of data that can be extracted from in situ TEM experiments with the help of machine learning.  A.) shows the first image of the time series. B.) shows the outline of each particle (contained in the box in A) at each point in time.  Changes in particle morphology can indicate the presence of a specific coarsening mechanism. C.) collects particle size distributions for the system at every time step in the experiment.  This type of characterization is common in traditional studies of nanoparticle growth, while the characterization of individual particles, captured in D), is one example of the augmented information enabled by augmented image segmentation.
