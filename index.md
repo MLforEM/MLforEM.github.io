@@ -28,7 +28,11 @@ A clear benefit to unsupervised learning is that scientists do not need to spend
 
 ### Drift Correction
 
-In the first notebook, images are cropped to remove black borders caused by drift during the experiment. This drift can be seen as consistent motion through a series of images. This means that the whole image, and hence, all the particles, move in the same direction. However, the direction of motion can change throughout the experiment. The most prominent reason for drift is high temperature but it can also be due to vibrations in the room/microscope.
+In the first notebook, images are cropped to remove black borders caused by drift during the experiment. The most prominent reason for drift is high temperature but it can also be due to vibrations in the room/microscope. Without proper drift correction we are not able to track particles and no information can be gained from the datasets. 
+
+<img width="543" alt="Screen Shot 2021-01-11 at 5 30 39 PM" src="https://user-images.githubusercontent.com/76077037/104245712-c2e7c800-5432-11eb-9cea-5725ad6cc595.png">
+
+**Figure 2.** This figure shows the first image in the dataset overlayed with the last image in the dataset. The blue border shows that the final image shifted down and to the right. This drift can be seen as consistent motion through a series of images. This means that the whole image, and hence, all the particles, move in the same direction. However, the direction of motion can change throughout the experiment. 
 
 [Drift Correction Jupyter Notebook](https://colab.research.google.com/drive/13LBYQRLUFVsE8hW9RRT9hFBgD9oI4ruV?usp=sharing)
 
