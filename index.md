@@ -32,6 +32,10 @@ In the first notebook, images are cropped to remove black borders caused by drif
 
 <img width="543" alt="Screen Shot 2021-01-11 at 5 30 39 PM" src="https://user-images.githubusercontent.com/76077037/104245712-c2e7c800-5432-11eb-9cea-5725ad6cc595.png">
 
+<img width="581" alt="Screen Shot 2021-01-11 at 5 55 19 PM" src="https://user-images.githubusercontent.com/76077037/104248606-d34e7180-5437-11eb-878e-0356c5657ff9.png">
+
+**Figure 2.** Contours show particle outlines as a function of time. Blue contours (and the image) show the initial position of partices, while the red show particle positions after 250 s at 900C.  Particles are seen to move towards the lower left of the frame. Small, random jumps in the microscope stage can cause discontinuities in the drift. Correction by cross-correlation accounts for these jumps.
+
 **Figure 2.** This figure shows the first image in the dataset overlayed with the last image in the dataset. The blue border shows that the final image shifted down and to the right. This drift can be seen as consistent motion through a series of images. This means that the whole image, and hence, all the particles, move in the same direction. However, the direction of motion can change throughout the experiment. 
 
 [Drift Correction Jupyter Notebook](https://colab.research.google.com/drive/13LBYQRLUFVsE8hW9RRT9hFBgD9oI4ruV?usp=sharing)
