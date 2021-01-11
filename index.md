@@ -20,7 +20,7 @@ The most important information in images is often stored in the spatial relation
 
 <img width="480" alt="Screen Shot 2021-01-11 at 5 15 10 PM" src="https://user-images.githubusercontent.com/76077037/104244530-9337c080-5430-11eb-9cfd-d276be0bb12f.png">
 
-**Figure 2.** Schematic representation of an autoencoder architecture.  Starting from an input image, successive convolutional layers scale down the spatial dimension of the image and encode the information in a feature-rich latent representation.  A bottleneck layer can restrict the depth of the latent representation, which is often useful for cases of denoising.Subsequently, upsampling convolutional layers restore the restore the original spatial dimension of the image while localizing features from the bottleneck layer.  Skip-connections, introduced in the UNet architecture, relate down- and up-sampling representations to more accurately represent feature positions.
+**Figure 1.** Schematic representation of an autoencoder architecture.  Starting from an input image, successive convolutional layers scale down the spatial dimension of the image and encode the information in a feature-rich latent representation.  A bottleneck layer can restrict the depth of the latent representation, which is often useful for cases of denoising.Subsequently, upsampling convolutional layers restore the restore the original spatial dimension of the image while localizing features from the bottleneck layer.  Skip-connections, introduced in the UNet architecture, relate down- and up-sampling representations to more accurately represent feature positions.
 
 A clear benefit to unsupervised learning is that scientists do not need to spend time creating a labeled training set which can often be difficult and time consuming.  Therefore, this tutorial will focus on developing a method for unsupervised segmentation of TEM images.
 
@@ -35,6 +35,10 @@ In the first notebook, images are cropped to remove black borders caused by drif
 ### Dataset Prep
 
 The second notebook prepares the images to go through the machine learning model. It uses data augmentation, including cropping and rotation, to increase the number of unique images that can be used for training. This method saves time and money when collecting images by requiring less initial raw images. 
+
+<img width="317" alt="Screen Shot 2021-01-11 at 5 16 43 PM" src="https://user-images.githubusercontent.com/76077037/104244651-e0b42d80-5430-11eb-92e8-a6301354a4c7.png">
+
+**Figure 3.** Individual images can be broken into segments for data augmentation, each of which can be used as a unique example in the training set. Care must be taken to ensure that each sub-image still closely resembles the larger image so that the trained model is not biased by artifact from data augmentation.
 
 [Dataset Prep Jupyter Notebook](https://colab.research.google.com/drive/1xVKG8MZAmSDpgJZZkyJlQBlwUmFXwR_n?usp=sharing)
 
@@ -65,4 +69,4 @@ The following tutorial details the preparation of images, segmentation and measu
 
 <img width="376" alt="Screen Shot 2021-01-10 at 6 33 12 PM" src="https://user-images.githubusercontent.com/76077037/104138483-53120880-5372-11eb-9844-534d476ddd12.png">
 
-**Figure 1.** Demonstration of the type of data that can be extracted from in situ TEM experiments with the help of machine learning.  A.) shows the first image of the time series. B.) shows the outline of each particle (contained in the box in A) at each point in time.  Changes in particle morphology can indicate the presence of a specific coarsening mechanism. C.) collects particle size distributions for the system at every time step in the experiment.  This type of characterization is common in traditional studies of nanoparticle growth, while the characterization of individual particles, captured in D), is one example of the augmented information enabled by augmented image segmentation.
+**Figure 4.** Demonstration of the type of data that can be extracted from in situ TEM experiments with the help of machine learning.  A.) shows the first image of the time series. B.) shows the outline of each particle (contained in the box in A) at each point in time.  Changes in particle morphology can indicate the presence of a specific coarsening mechanism. C.) collects particle size distributions for the system at every time step in the experiment.  This type of characterization is common in traditional studies of nanoparticle growth, while the characterization of individual particles, captured in D), is one example of the augmented information enabled by augmented image segmentation.
