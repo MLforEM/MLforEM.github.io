@@ -1,4 +1,4 @@
-# Tutorial for Unsupervised Image Segmentation with Electron Microscopy
+# Tutorial on Unsupervised Image Segmentation for Electron Microscopy
 
 ## Introduction
 In situ transmission electron microscopy (TEM) allows scientists to observe dynamic processes in real time.  By combining high resolution imaging which is characteristic of TEM with rapid image capture capabilities enabled by modern direct detection cameras, time-dependent processes can be observed and studied with unprecedented levels of detail.  However, experimental advances do not come without challenges.  The amount of data generated in experiments which record up to thousands of images per second prohibits traditional manual analysis.  Without advances in image processing to extract physical data from TEM images, full experimental capabilities cannot be realized.
