@@ -1,6 +1,7 @@
 # Tutorial on Unsupervised Image Segmentation for Electron Microscopy
 
-## Introduction
+*Leena Vyas, James P. Horwath, and Eric A. Stach*
+
 In situ transmission electron microscopy (TEM) allows scientists to observe dynamic processes in real time.  By combining high resolution imaging which is characteristic of TEM with rapid image capture capabilities enabled by modern direct detection cameras, time-dependent processes can be observed and studied with unprecedented levels of detail.  However, experimental advances do not come without challenges.  The amount of data generated in experiments which record up to thousands of images per second prohibits traditional manual analysis.  Without advances in image processing to extract physical data from TEM images, full experimental capabilities cannot be realized.
 Building on advances in the fields of computer vision and machine learning, the goal of this website is to demonstrate how deep learning can be applied to the processing of scientific images.  Readers will be introduced to important preprocessing steps to remove experimental artifacts, and to fundamental design aspects for building a convolutional neural network from scratch.  Interactive jupyter notebooks are used to illustrate individual steps in image preparation, building and training a convolutional neural network to perform semantic segmentation of TEM images, and evaluating the results on real images.  
 
