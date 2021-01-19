@@ -77,6 +77,7 @@ The following tutorial details the preparation of images, segmentation and measu
 **Figure 4.** Demonstration of the type of data that can be extracted from in situ TEM experiments with the help of machine learning.  A.) shows the first image of the time series. B.) shows the outline of each particle (contained in the box in A) at each point in time.  Changes in particle morphology can indicate the presence of a specific coarsening mechanism. C.) collects particle size distributions for the system at every time step in the experiment.  This type of characterization is common in traditional studies of nanoparticle growth, while the characterization of individual particles, captured in D), is one example of the augmented information enabled by augmented image segmentation.
 
 References:
+
 [1]. Horwath, Zakharov, Megret and Stach, “Understanding important features of deep learning models for segmentation of high-resolution transmission electron microscopy images,” npj Computational Materials 6 (2020).
 
 [2]. Goodfellow, Bengio, Courville, Deep Learning, MIT Press (2016).
