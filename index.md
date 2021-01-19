@@ -78,5 +78,7 @@ The following tutorial details the preparation of images, segmentation and measu
 
 References:
 [1]. Horwath, Zakharov, Megret and Stach, “Understanding important features of deep learning models for segmentation of high-resolution transmission electron microscopy images,” npj Computational Materials 6 (2020).
+
 [2]. Goodfellow, Bengio, Courville, Deep Learning, MIT Press (2016).
+
 [3].  LeCun, Cortes, and Burges, The MNIST database of handwritten digits.
