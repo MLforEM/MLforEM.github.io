@@ -47,19 +47,19 @@ The second notebook prepares the images to go through the machine learning model
 
 **Figure 3.** Individual images can be broken into segments for data augmentation, each of which can be used as a unique example in the training set. Care must be taken to ensure that each sub-image still closely resembles the larger image so that the trained model is not biased by artifacts from data augmentation.
 
-[Dataset Prep Jupyter Notebook](https://colab.research.google.com/drive/1xVKG8MZAmSDpgJZZkyJlQBlwUmFXwR_n?usp=sharing)
+[Dataset Prep Jupyter Notebook](https://drive.google.com/file/d/1by7lu-X-YprueWkf4jJlvBTSpeK110Fk/view?usp=sharing)
 
 ### Training
 
 The third notebook is used for training. Raw training images from the previous notebook are fed through the model to produce images close to ground truth. Practice datasets will be included, but the code can be easily adjusted to work on any images. The images are fed through the model in batches adjusting layer weights based on the average performance. 
 
-[Training Jupyter Notebook](https://colab.research.google.com/drive/1RJFv8rTUo77LzvbZ63_MuMUSVp2oDGx6?usp=sharing)
+[Training Jupyter Notebook](https://drive.google.com/file/d/1vEw0N-EfU26jcutHfuogwK4o-3rDbwr2/view?usp=sharing)
 
 ### Inference
 
 In the fourth notebook, the remaining images are fed through the trained machine learning model. Chosen weights from training are used for segmentation of the images. The output allows for further analysis of the images including number of particles per image, size of particles, interactions between particles to determine coarsening mechanisms, etc. 
 
-[Inference Jupyter Notebook](https://colab.research.google.com/drive/1RYvPYfCiz35TggzieT-r3Q9Uosfmmvde?usp=sharing)
+[Inference Jupyter Notebook](https://drive.google.com/file/d/1dZZQuA7KtKRtft-em4X0Iyw0pg4vgmh4/view?usp=sharing)
 
 ## Outcomes
 
